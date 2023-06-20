@@ -7,7 +7,7 @@ int main(int argc , char * argv[]){
 
     FileInfo fileinfo;
     std::string filePath = "demo/test.jpg";
-   // std::string anoType = "ForeignBody";//896
+//    std::string anoType = "ForeignBody";//896
     std::string anoType = "GroundWater";//640
 
     std::string status = "ok";
@@ -21,8 +21,11 @@ int main(int argc , char * argv[]){
     client.recvFileInfo(fd,fileinfo_out);
 
     cv::Mat img_res ;
+
     client.recvImg(fd, &fileinfo_out,img_res);
-    cv::imwrite("demo/sly_result.jpg",img_res);
+
+    cv::imwrite(fileinfo_out.file_path,img_res);
+
     printf("img already saved in demo\n");
 
 }
