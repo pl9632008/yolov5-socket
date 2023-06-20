@@ -1,0 +1,1185 @@
+2023-04-25 14:56:07.067 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-25 14:56:07.068 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-25 14:56:07.117 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-25 14:56:07.118 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-25 14:56:14.580 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-25 14:56:14.582 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-25 14:56:14.583 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-25 14:56:27.910 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-25 14:56:27.933 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-25 14:56:27.933 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-25 14:56:27.934 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-25 14:56:27.969 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-25 14:56:27.969 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-25 14:56:27.969 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-25 14:56:27.970 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-25 14:56:27.970 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-25 14:56:27.970 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-25 14:56:27.995 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-25 14:56:27.996 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-25 14:57:04.257 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-25 14:59:28.719 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-25 14:59:28.720 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-25 14:59:28.770 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-25 14:59:28.771 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-25 14:59:34.600 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-25 14:59:34.602 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-25 14:59:34.602 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-25 14:59:49.709 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-25 14:59:49.749 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-25 14:59:49.749 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-25 14:59:56.254 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-25 14:59:56.274 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-25 14:59:56.274 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-25 14:59:56.275 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-25 14:59:56.275 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-25 14:59:56.276 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-25 14:59:56.276 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-25 15:00:29.394 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-25 15:00:36.767 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-25 15:02:23.131 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-25 15:02:23.132 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-25 15:02:23.181 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-25 15:02:23.184 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-25 15:02:29.940 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-25 15:02:29.940 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-25 15:02:29.940 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-25 15:02:52.336 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-25 15:02:52.369 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-25 15:02:52.369 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-25 15:02:56.916 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-25 15:02:56.936 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-25 15:02:56.936 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-25 15:02:56.937 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-25 15:02:56.937 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-25 15:02:56.937 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-25 15:02:56.938 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-25 15:03:04.845 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-25 15:03:08.515 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 05:54:26.751 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 05:54:26.752 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 05:54:26.801 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 05:54:26.802 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 05:54:34.894 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 05:54:34.918 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 05:54:34.918 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 05:54:53.783 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 05:54:53.812 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 05:54:53.812 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 05:54:53.813 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 05:54:53.859 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 05:54:53.859 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 05:54:53.859 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 05:54:53.859 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 05:54:53.859 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 05:54:53.859 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 05:54:53.886 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 05:54:53.886 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 05:55:37.829 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 05:56:23.603 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 05:56:23.604 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 05:56:23.653 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 05:56:23.654 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 05:56:30.853 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 05:56:30.854 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 05:56:30.854 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 05:56:32.347 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 05:56:32.367 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 05:56:32.367 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 05:56:32.368 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 05:56:32.388 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 05:56:32.388 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 05:56:32.389 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 05:56:32.390 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 05:56:32.390 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 05:56:32.391 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 05:56:32.414 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 05:56:32.414 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 05:56:40.144 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 05:56:45.087 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 05:56:45.087 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 05:56:45.137 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 05:56:45.139 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 05:56:51.293 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 05:56:51.293 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 05:56:51.293 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 05:56:52.896 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 05:56:52.914 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 05:56:52.914 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 05:56:52.915 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 05:56:52.933 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 05:56:52.934 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 05:56:52.934 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 05:56:52.935 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 05:56:52.936 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 05:56:52.936 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 05:56:52.959 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 05:56:52.960 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 05:56:58.267 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 05:59:51.407 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 05:59:51.408 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 05:59:51.457 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 05:59:51.458 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 05:59:57.076 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 05:59:57.076 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 05:59:57.077 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:00:16.859 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:00:16.879 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:00:16.879 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:00:16.880 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:00:16.898 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:00:16.899 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:00:16.899 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:00:16.900 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:00:16.901 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:00:16.901 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:00:16.924 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:00:16.925 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:00:19.830 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 06:00:37.055 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:00:37.056 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:00:37.105 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:00:37.108 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:00:42.671 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:00:42.671 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:00:42.671 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:00:43.474 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:00:43.494 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:00:43.495 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:00:43.496 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:00:43.514 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:00:43.514 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:00:43.515 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:00:43.515 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:00:43.516 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:00:43.517 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:00:43.539 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:00:43.540 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:00:46.046 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 06:07:14.075 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:07:14.076 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:07:14.125 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:07:14.126 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:07:19.536 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:07:19.536 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:07:19.537 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:07:41.205 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:07:41.222 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:07:41.222 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:07:41.223 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:07:41.242 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:07:41.242 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:07:41.242 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:07:41.242 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:07:41.243 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:07:41.243 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:07:41.268 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:07:41.268 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:08:12.782 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 06:10:50.128 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:10:50.133 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:10:50.177 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:10:50.178 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:10:56.023 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:10:56.024 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:10:56.024 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:10:59.303 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:10:59.337 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:10:59.338 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:11:04.223 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:11:04.243 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:11:04.243 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:11:04.244 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:11:04.244 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:11:04.244 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:11:04.245 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:11:04.268 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:11:04.269 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:11:19.388 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 06:20:32.007 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:20:32.008 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:20:32.057 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:20:32.058 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:20:37.945 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:20:37.946 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:20:37.946 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:20:49.026 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:20:49.043 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:20:49.043 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:20:49.044 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:20:49.063 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:20:49.063 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:20:49.064 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:20:49.064 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:20:49.064 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:20:49.064 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:20:49.089 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:20:49.089 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:21:02.221 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 06:21:36.107 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:21:36.108 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:21:36.157 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:21:36.158 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:21:41.817 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:21:41.817 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:21:41.818 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:21:43.582 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:21:43.607 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:21:43.608 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:21:47.764 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:21:47.783 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:21:47.783 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:21:47.784 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:21:47.785 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:21:47.785 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:21:47.785 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:21:47.808 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:21:47.809 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:21:53.757 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:95
+2023-04-26 06:40:54.115 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:40:54.117 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:40:54.165 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:40:54.166 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:41:00.332 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:41:00.333 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:41:00.334 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:41:08.935 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:41:08.955 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:41:08.955 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:41:08.956 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:41:08.976 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:41:08.977 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:41:08.977 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:41:08.978 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:41:08.978 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:41:08.979 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:41:09.003 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:41:09.003 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:42:03.608 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:109
+2023-04-26 06:44:54.545 LOG_INFO  <Yolov5Detect>total detect time=169.8889 yolov5.cpp:174
+2023-04-26 06:50:03.723 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:50:03.724 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:50:03.773 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:50:03.774 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:50:09.125 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:50:09.126 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:50:09.127 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:50:16.792 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:50:16.810 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:50:16.810 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:50:16.811 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:50:16.829 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:50:16.829 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:50:16.830 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:50:16.831 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:50:16.832 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:50:16.833 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:50:16.855 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:50:16.856 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:50:30.299 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:109
+2023-04-26 06:57:39.091 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:57:39.092 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:57:39.141 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:57:39.142 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:57:44.973 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:57:44.974 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:57:44.974 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:57:52.078 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:57:52.196 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:57:52.209 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:57:52.217 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:57:52.231 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:57:52.232 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:57:52.232 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:57:52.232 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:57:52.233 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:57:52.233 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:57:52.261 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:57:52.289 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:57:52.498 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:110
+2023-04-26 06:59:22.543 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:59:22.544 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:59:22.593 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:59:22.594 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:59:28.496 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:59:28.497 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:59:28.497 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 06:59:34.755 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 06:59:34.773 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 06:59:34.773 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 06:59:34.774 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 06:59:34.793 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 06:59:34.793 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 06:59:34.794 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 06:59:34.795 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 06:59:34.795 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 06:59:34.796 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 06:59:34.820 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 06:59:34.820 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 06:59:34.820 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:110
+2023-04-26 06:59:44.783 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 06:59:44.783 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 06:59:44.833 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 06:59:44.833 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 06:59:50.350 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 06:59:50.350 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 06:59:50.350 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 07:00:06.043 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 07:00:24.255 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 07:00:24.257 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 07:00:24.259 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 07:00:24.261 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 07:00:24.261 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 07:00:24.262 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 07:00:24.262 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 07:00:24.262 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 07:00:24.263 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 07:00:24.272 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 07:00:24.272 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 07:00:41.281 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:110
+2023-04-26 07:01:11.555 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 07:01:11.556 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 07:01:11.605 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 07:01:11.607 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 07:01:17.396 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 07:01:17.396 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 07:01:17.396 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 07:01:18.361 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 07:01:18.381 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 07:01:18.381 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 07:01:18.382 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 07:01:18.400 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 07:01:18.401 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 07:01:18.401 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 07:01:18.402 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 07:01:18.403 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 07:01:18.403 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 07:01:18.426 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 07:01:18.427 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 07:01:21.343 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:110
+2023-04-26 07:03:27.295 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 07:03:27.296 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 07:03:27.346 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 07:03:27.347 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 07:03:33.091 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 07:03:33.092 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 07:03:33.093 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 07:03:36.149 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 07:03:36.169 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 07:03:36.169 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 07:03:36.170 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 07:03:36.189 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 07:03:36.189 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 07:03:36.190 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 07:03:36.191 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 07:03:36.191 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 07:03:36.192 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 07:03:36.216 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 07:03:36.216 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 07:03:41.169 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:110
+2023-04-26 07:03:50.987 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 07:03:50.988 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 07:03:51.037 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 07:03:51.039 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 07:03:56.715 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 07:03:56.716 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 07:03:56.716 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 07:03:57.416 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 07:03:57.436 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 07:03:57.436 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 07:03:57.437 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 07:03:57.455 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 07:03:57.456 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 07:03:57.456 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 07:03:57.457 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 07:03:57.457 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 07:03:57.457 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 07:03:57.481 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 07:03:57.482 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 07:12:55.022 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:110
+2023-04-26 07:25:38.163 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 07:25:38.164 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 07:25:38.215 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 07:25:38.218 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 07:25:44.127 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 07:25:44.127 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 07:25:44.127 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 07:26:04.544 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 07:26:04.563 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 07:26:04.564 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 07:26:04.564 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 07:26:04.585 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 07:26:04.585 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 07:26:04.586 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 07:26:04.586 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 07:26:04.587 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 07:26:04.587 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 07:26:04.611 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 07:26:04.611 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 07:26:19.896 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:111
+2023-04-26 07:29:09.231 LOG_INFO  <Yolov5Detect>total detect time=168.6100 yolov5.cpp:176
+2023-04-26 07:44:28.211 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 07:44:28.212 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 07:44:28.261 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 07:44:28.262 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 07:44:34.691 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 07:44:34.692 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 07:44:34.692 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 07:44:51.742 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 07:44:51.763 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 07:44:51.763 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 07:44:51.764 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 07:44:51.783 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 07:44:51.783 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 07:44:51.783 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 07:44:51.783 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 07:44:51.783 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 07:44:51.784 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 07:44:51.808 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 07:44:51.809 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 07:45:02.270 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:111
+2023-04-26 07:48:35.536 LOG_INFO  <Yolov5Detect>total detect time=212.3602 yolov5.cpp:176
+2023-04-26 07:49:06.245 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 07:49:06.246 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 07:49:06.295 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 07:49:06.296 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 07:49:11.928 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 07:49:11.929 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 07:49:11.930 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 07:49:11.930 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 07:49:11.931 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 07:49:11.932 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 07:49:11.932 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 07:49:11.951 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 07:49:11.951 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 07:49:11.953 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 07:49:11.953 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 07:49:11.953 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 07:49:11.953 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 07:49:11.977 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 07:49:11.977 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 07:49:11.977 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:111
+2023-04-26 07:49:12.479 LOG_INFO  <Yolov5Detect>total detect time=0.5022 yolov5.cpp:176
+2023-04-26 08:01:46.001 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 08:01:46.001 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 08:01:46.051 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 08:01:46.052 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 08:01:51.536 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 08:01:51.536 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 08:01:51.537 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 08:01:51.537 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 08:01:51.538 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 08:01:51.539 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 08:01:51.539 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 08:01:51.558 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 08:01:51.559 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 08:01:51.559 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 08:01:51.559 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 08:01:51.559 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 08:01:51.560 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 08:01:51.584 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 08:01:51.584 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 08:01:51.584 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:111
+2023-04-26 08:05:26.894 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 08:05:26.895 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 08:05:26.944 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 08:05:26.945 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 08:05:32.616 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 08:05:32.616 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 08:05:32.616 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 08:05:32.616 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 08:05:32.617 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 08:05:32.617 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 08:05:32.617 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 08:05:32.637 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 08:05:32.637 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 08:05:32.637 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 08:05:32.637 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 08:05:32.637 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 08:05:32.637 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 08:05:32.663 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 08:05:32.663 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 08:05:32.663 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:111
+2023-04-26 08:16:17.301 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 08:16:17.302 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 08:16:17.351 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 08:16:17.352 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 08:16:26.211 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 08:16:26.256 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 08:16:26.256 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 08:16:26.256 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 08:16:26.337 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 08:16:26.338 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 08:16:26.339 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 08:16:26.389 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 08:16:26.390 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 08:16:26.390 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 08:16:26.391 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 08:16:26.391 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 08:16:26.392 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 08:16:26.415 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 08:16:26.415 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 08:16:26.416 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:111
+2023-04-26 08:16:27.018 LOG_INFO  <Yolov5Detect>total detect time=0.6018 yolov5.cpp:177
+2023-04-26 08:22:05.734 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 08:22:05.736 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 08:22:05.784 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 08:22:05.785 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 08:22:16.496 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 08:22:16.515 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 08:22:16.515 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 08:22:16.516 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 08:22:16.594 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 08:22:16.595 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 08:22:16.596 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 08:22:16.654 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 08:22:16.654 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 08:22:16.654 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 08:22:16.654 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 08:22:16.656 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 08:22:16.656 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 08:22:16.680 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 08:22:16.681 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 08:22:16.683 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:116
+2023-04-26 08:22:17.357 LOG_INFO  <Yolov5Detect>total detect time=0.6726 yolov5.cpp:182
+2023-04-26 08:23:51.218 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 08:23:51.218 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 08:23:51.268 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 08:23:51.269 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 08:23:58.953 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 08:23:58.966 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 08:23:58.966 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 08:23:58.966 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 08:23:59.078 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 08:23:59.079 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 08:23:59.079 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 08:23:59.117 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 08:23:59.117 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 08:23:59.117 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 08:23:59.118 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 08:23:59.118 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 08:23:59.118 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 08:23:59.144 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 08:23:59.144 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 08:23:59.145 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:116
+2023-04-26 08:23:59.873 LOG_INFO  <Yolov5Detect>total detect time=0.7267 yolov5.cpp:182
+2023-04-26 08:25:53.039 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 08:25:53.040 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 08:25:53.089 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 08:25:53.090 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 08:26:00.853 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 08:26:00.916 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 08:26:00.916 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 08:26:00.916 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 08:26:01.009 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 08:26:01.010 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 08:26:01.011 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 08:26:01.048 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 08:26:01.049 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 08:26:01.050 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 08:26:01.051 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 08:26:01.051 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 08:26:01.052 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 08:26:01.073 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 08:26:01.074 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 08:26:01.074 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:116
+2023-04-26 08:26:01.689 LOG_INFO  <Yolov5Detect>total detect time=0.6154 yolov5.cpp:182
+2023-04-26 10:27:44.358 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 10:27:44.359 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 10:27:44.408 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 10:27:44.409 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 10:27:55.963 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 10:27:56.006 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 10:27:56.006 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 10:27:56.006 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 10:27:56.111 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 10:27:56.111 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 10:27:56.111 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 10:27:56.149 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 10:27:56.150 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 10:27:56.150 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 10:27:56.150 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 10:27:56.151 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 10:27:56.153 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 10:27:56.176 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 10:27:56.176 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 10:27:56.177 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:140
+2023-04-26 10:27:56.747 LOG_INFO  <Yolov5Detect>total detect time=0.5692 yolov5.cpp:265
+2023-04-26 10:28:34.795 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 10:28:34.796 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 10:28:34.845 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 10:28:34.847 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 10:28:43.115 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 10:28:43.198 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 10:28:43.198 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 10:29:05.121 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 10:29:06.286 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 10:29:06.431 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 10:29:06.791 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 10:29:18.671 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 10:29:18.671 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 10:29:18.674 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 10:29:18.675 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 10:29:18.675 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 10:29:18.675 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 10:29:18.682 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 10:29:18.683 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 10:29:43.211 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:140
+2023-04-26 10:32:01.882 LOG_INFO  <Yolov5Detect>total detect time=136.8492 yolov5.cpp:265
+2023-04-26 10:42:03.219 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 10:42:03.224 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 10:42:03.269 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 10:42:03.270 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 10:42:10.961 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 10:42:10.963 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 10:42:10.964 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 10:42:10.965 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 10:42:11.000 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 10:42:11.001 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 10:42:11.001 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 10:42:11.037 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 10:42:11.039 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 10:42:11.039 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 10:42:11.040 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 10:42:11.041 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 10:42:11.045 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 10:42:11.063 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 10:42:11.064 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 10:42:11.065 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:140
+2023-04-26 10:42:11.619 LOG_INFO  <Yolov5Detect>total detect time=0.5534 yolov5.cpp:264
+2023-04-26 10:42:40.487 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 10:42:40.488 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 10:42:40.537 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 10:42:40.538 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 10:42:46.606 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 10:42:46.609 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 10:42:46.609 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 10:43:28.750 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 10:43:28.779 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 10:43:28.779 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 10:43:28.780 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 10:43:28.812 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 10:43:28.813 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 10:43:28.814 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 10:43:28.815 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 10:43:28.815 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 10:43:28.816 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 10:43:28.839 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 10:43:28.840 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 10:43:43.790 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:140
+2023-04-26 11:23:29.182 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 11:23:29.183 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 11:23:29.232 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 11:23:29.233 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:88
+2023-04-26 11:23:38.112 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:99
+2023-04-26 11:23:38.113 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 11:23:38.114 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 11:23:38.114 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 11:23:38.120 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 11:23:38.120 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 11:23:38.121 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 11:23:38.142 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 11:23:38.142 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 11:23:38.143 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 11:23:38.143 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 11:23:38.143 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 11:23:38.143 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 11:23:38.168 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 11:23:38.168 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 11:23:38.168 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:216
+2023-04-26 11:23:38.652 LOG_INFO  <Yolov5Detect>total detect time=0.4840 yolov5.cpp:355
+2023-04-26 12:47:24.723 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 12:47:24.725 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 12:47:24.773 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 12:47:24.774 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 12:47:33.412 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 12:47:33.414 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 12:47:33.414 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 12:47:33.414 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 12:47:33.417 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:47:33.418 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 12:47:33.418 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 12:47:33.439 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 12:47:33.439 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 12:47:33.439 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 12:47:33.440 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 12:47:33.440 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 12:47:33.440 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 12:47:33.463 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 12:47:33.463 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 12:47:33.464 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:216
+2023-04-26 12:47:44.126 LOG_INFO  <Yolov5Detect>total detect time=10.6618 yolov5.cpp:355
+2023-04-26 12:51:58.232 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 12:51:58.232 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 12:51:58.282 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 12:51:58.282 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 12:52:06.304 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 12:52:06.305 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 12:52:06.305 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 12:52:06.305 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 12:52:06.308 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:52:06.309 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 12:52:06.309 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 12:52:06.336 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 12:52:06.337 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 12:52:06.337 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 12:52:06.338 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 12:52:06.338 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 12:52:06.339 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 12:52:06.362 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 12:52:06.362 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 12:52:06.362 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 12:52:06.867 LOG_INFO  <Yolov5Detect>total detect time=0.5038 yolov5.cpp:356
+2023-04-26 12:52:06.867 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:420
+2023-04-26 12:52:06.868 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 12:52:06.868 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 12:52:06.870 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:52:06.871 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 12:53:42.645 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 12:53:42.666 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 12:53:42.666 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 12:53:42.667 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 12:53:42.668 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 12:53:42.669 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 12:53:42.670 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 12:53:42.690 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 12:53:42.691 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 12:53:42.692 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 12:53:42.745 LOG_INFO  <Yolov5Detect>total detect time=0.0523 yolov5.cpp:356
+2023-04-26 12:53:42.745 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:420
+2023-04-26 12:53:42.746 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 12:53:42.746 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 12:53:42.746 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:53:42.746 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 12:53:46.147 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 12:53:46.167 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 12:53:46.167 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 12:53:46.168 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 12:53:46.169 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 12:53:46.170 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 12:53:46.171 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 12:53:46.190 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 12:53:46.190 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 12:53:46.190 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 12:53:46.225 LOG_INFO  <Yolov5Detect>total detect time=0.0348 yolov5.cpp:356
+2023-04-26 12:53:46.226 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:420
+2023-04-26 12:53:46.227 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 12:53:46.228 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 12:53:46.228 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:53:46.229 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 12:54:01.994 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 12:54:01.994 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 12:54:02.044 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 12:54:02.045 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 12:54:02.045 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 12:54:02.046 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 12:54:02.047 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 12:54:02.047 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 12:54:02.049 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:54:02.050 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 12:54:02.051 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 12:54:02.068 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 12:54:02.069 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 12:54:02.070 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 12:54:02.071 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 12:54:02.072 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 12:54:02.072 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 12:54:02.095 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 12:54:02.096 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 12:54:02.096 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 12:54:40.065 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 12:54:40.065 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 12:54:40.115 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 12:54:40.115 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 12:54:40.116 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 12:54:40.116 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 12:54:40.117 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 12:54:40.118 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 12:54:40.119 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:54:40.120 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 12:55:52.670 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 12:55:52.690 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 12:55:52.690 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 12:55:52.691 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 12:55:52.693 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 12:55:52.694 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 12:55:52.695 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 12:55:52.717 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 12:55:52.717 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 12:55:52.718 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 12:55:58.997 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 12:55:58.998 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 12:55:59.047 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 12:55:59.048 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 12:56:05.693 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 12:56:05.694 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 12:56:05.695 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 12:56:05.696 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 12:56:05.697 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:56:05.698 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 12:56:05.699 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 12:56:05.717 LOG_INFO  <RecvInfo>recvInfo cols=720 server.cpp:86
+2023-04-26 12:56:05.718 LOG_INFO  <RecvInfo>recvInfo rows=960 server.cpp:87
+2023-04-26 12:56:05.718 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 12:56:05.719 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 12:56:05.719 LOG_INFO  <RecvInfo>recvInfo file_path=demo/sly.jpg server.cpp:90
+2023-04-26 12:56:05.719 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 12:56:05.742 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 12:56:05.742 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 12:56:05.743 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 12:56:06.061 LOG_INFO  <Yolov5Detect>total detect time=0.3178 yolov5.cpp:356
+2023-04-26 12:56:06.062 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:420
+2023-04-26 12:56:06.063 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 12:56:06.063 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 12:56:06.064 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 12:56:06.064 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:14:49.624 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 13:14:49.628 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 13:14:49.674 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 13:14:49.677 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 13:14:58.429 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 13:14:58.429 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 13:14:58.429 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 13:14:58.429 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 13:14:58.432 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:14:58.432 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:15:00.553 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:15:00.561 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:15:00.561 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:15:00.563 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:15:00.564 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:15:00.565 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:15:00.566 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:15:00.569 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:15:00.570 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:15:00.571 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 13:15:01.051 LOG_INFO  <Yolov5Detect>total detect time=0.4786 yolov5.cpp:356
+2023-04-26 13:15:01.051 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:420
+2023-04-26 13:15:01.051 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 13:15:01.051 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 13:15:01.051 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:15:01.052 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:29:13.395 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:29:13.411 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:29:13.411 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:29:13.412 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:29:13.413 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:29:13.413 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:29:13.414 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:29:13.418 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:29:13.419 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:29:13.420 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 13:29:13.786 LOG_INFO  <Yolov5Detect>total detect time=0.3659 yolov5.cpp:356
+2023-04-26 13:29:13.786 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:420
+2023-04-26 13:29:13.786 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 13:29:13.787 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 13:29:13.787 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:29:13.788 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:29:18.799 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 13:29:18.799 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 13:29:18.849 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 13:29:18.850 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 13:29:26.086 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 13:29:26.086 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 13:29:26.087 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 13:29:26.087 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 13:29:26.089 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:29:26.089 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:29:28.025 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:29:28.031 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:29:28.032 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:29:28.033 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:29:28.034 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:29:28.035 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:29:28.036 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:29:28.040 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:29:28.040 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:29:28.040 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 13:29:28.390 LOG_INFO  <Yolov5Detect>total detect time=0.3498 yolov5.cpp:359
+2023-04-26 13:29:28.391 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:423
+2023-04-26 13:29:28.392 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 13:29:28.393 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 13:29:28.394 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:29:28.395 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:31:03.111 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:31:03.118 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:31:03.118 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:31:03.119 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:31:03.120 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:31:03.120 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:31:03.121 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:31:03.125 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:31:03.125 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:31:03.126 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 13:31:03.491 LOG_INFO  <Yolov5Detect>total detect time=0.3636 yolov5.cpp:359
+2023-04-26 13:31:03.491 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:423
+2023-04-26 13:31:03.492 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 13:31:03.492 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 13:31:03.492 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:31:03.493 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:31:06.606 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 13:31:06.606 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 13:31:06.656 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 13:31:06.660 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 13:31:13.670 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 13:31:13.671 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 13:31:13.671 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 13:31:13.671 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 13:31:13.672 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:31:13.672 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:31:15.081 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:31:15.087 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:31:15.088 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:31:15.089 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:31:15.090 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:31:15.091 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:31:15.092 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:31:15.096 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:31:15.096 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:31:15.097 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 13:31:15.452 LOG_INFO  <Yolov5Detect>total detect time=0.3549 yolov5.cpp:359
+2023-04-26 13:31:15.452 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:423
+2023-04-26 13:31:15.452 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 13:31:15.452 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 13:31:15.452 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:31:15.452 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:36:06.301 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:36:06.308 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:36:06.308 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:36:06.309 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:36:06.310 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:36:06.311 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:36:06.311 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:36:06.315 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:36:06.315 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:36:06.316 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:217
+2023-04-26 13:36:06.657 LOG_INFO  <Yolov5Detect>total detect time=0.3402 yolov5.cpp:359
+2023-04-26 13:36:06.657 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:423
+2023-04-26 13:36:06.657 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 13:36:06.657 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 13:36:06.657 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:36:06.657 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:36:12.583 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 13:36:12.584 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 13:36:12.633 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 13:36:12.635 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 13:36:18.859 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 13:36:18.859 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 13:36:18.859 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 13:36:18.859 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 13:36:18.860 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:36:18.860 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:36:19.689 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:36:19.695 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:36:19.696 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:36:19.697 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:36:19.698 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:36:19.699 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:36:19.700 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:36:19.703 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:36:19.704 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:36:19.705 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:219
+2023-04-26 13:36:20.152 LOG_INFO  <Yolov5Detect>total detect time=0.4465 yolov5.cpp:361
+2023-04-26 13:36:20.152 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:425
+2023-04-26 13:36:20.152 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 13:36:20.153 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 13:36:20.153 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:36:20.153 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:40:41.437 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:40:41.443 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:40:41.444 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:40:41.445 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:40:41.446 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:40:41.447 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:40:41.447 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:40:41.451 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:40:41.451 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:40:41.451 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:219
+2023-04-26 13:40:41.812 LOG_INFO  <Yolov5Detect>total detect time=0.3607 yolov5.cpp:361
+2023-04-26 13:40:41.813 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:425
+2023-04-26 13:40:41.813 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 13:40:41.813 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 13:40:41.814 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:40:41.814 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:40:49.302 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 13:40:49.303 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 13:40:49.352 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 13:40:49.353 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 13:40:55.631 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 13:40:55.631 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 13:40:55.631 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 13:40:55.631 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 13:40:55.632 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:40:55.632 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:40:56.508 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:40:56.523 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:40:56.523 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:40:56.523 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:40:56.523 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:40:56.523 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:40:56.523 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:40:56.531 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:40:56.531 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:40:56.532 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:219
+2023-04-26 13:41:16.836 LOG_INFO  <Yolov5Detect>total detect time=20.3043 yolov5.cpp:361
+2023-04-26 13:41:17.127 LOG_INFO  <Recognition> Recognition finished,res=person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,per
+2023-04-26 13:48:03.204 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 13:48:03.204 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 13:48:03.254 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 13:48:03.254 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 13:48:10.227 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 13:48:10.228 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 13:48:10.229 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 13:48:10.229 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 13:48:10.230 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:48:10.231 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:48:10.232 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:48:10.237 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:48:10.237 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:48:10.238 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:48:10.238 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:48:10.239 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:48:10.239 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:48:10.245 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:48:10.245 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:48:10.246 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:229
+2023-04-26 13:48:30.506 LOG_INFO  <Yolov5Detect>total detect time=20.2592 yolov5.cpp:371
+2023-04-26 13:48:30.777 LOG_INFO  <Recognition> Recognition finished,res=person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,person,per
+2023-04-26 13:57:28.124 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 13:57:28.124 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 13:57:28.174 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 13:57:28.174 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 13:57:34.181 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 13:57:34.181 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 13:57:34.181 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 13:57:34.181 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 13:57:34.182 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 13:57:34.182 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 13:57:34.182 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 13:57:34.189 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 13:57:34.189 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 13:57:34.189 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 13:57:34.189 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 13:57:34.189 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 13:57:34.189 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 13:57:34.196 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 13:57:34.196 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 13:57:34.196 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:229
+2023-04-26 14:08:00.301 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 14:08:00.303 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 14:08:00.351 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 14:08:00.352 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 14:08:07.317 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 14:08:07.319 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 14:08:07.319 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 14:08:07.320 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 14:08:07.323 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 14:08:07.324 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 14:08:07.325 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 14:08:07.331 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 14:08:07.332 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 14:08:07.333 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 14:08:07.334 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 14:08:07.335 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 14:08:07.336 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 14:08:07.339 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 14:08:07.339 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 14:08:07.340 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:229
+2023-04-26 14:11:17.150 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 14:11:17.150 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 14:11:17.200 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 14:11:17.200 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 14:11:23.716 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 14:11:23.717 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 14:11:23.717 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 14:11:23.717 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 14:11:23.717 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 14:11:23.718 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 14:11:23.718 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 14:11:23.724 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 14:11:23.724 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 14:11:23.724 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 14:11:23.724 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 14:11:23.724 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 14:11:23.724 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 14:11:23.732 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 14:11:23.732 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 14:11:23.732 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:229
+2023-04-26 14:16:42.832 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 14:16:42.833 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 14:16:42.882 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 14:16:42.882 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 14:16:48.525 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 14:16:48.526 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 14:16:48.529 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 14:16:48.529 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 14:16:48.530 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 14:16:48.531 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 14:16:48.531 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 14:16:48.537 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 14:16:48.537 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 14:16:48.538 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 14:16:48.538 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 14:16:48.538 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 14:16:48.539 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 14:16:48.544 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 14:16:48.545 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 14:16:48.546 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:229
+2023-04-26 14:16:48.881 LOG_INFO  <Yolov5Detect>total detect time=0.3343 yolov5.cpp:380
+2023-04-26 14:16:48.881 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:444
+2023-04-26 14:16:48.881 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 14:16:48.881 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 14:16:48.881 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 14:16:48.881 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 14:18:44.476 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 14:18:44.478 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 14:18:44.526 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 14:18:44.527 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 14:18:51.653 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 14:18:51.654 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 14:18:51.654 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 14:18:51.654 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 14:18:51.658 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 14:18:51.659 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 14:18:51.659 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 14:18:51.669 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 14:18:51.669 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 14:18:51.669 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 14:18:51.669 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 14:18:51.669 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 14:18:51.670 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 14:18:51.677 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 14:18:51.677 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 14:18:51.678 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:229
+2023-04-26 14:18:52.192 LOG_INFO  <Yolov5Detect>total detect time=0.5142 yolov5.cpp:380
+2023-04-26 14:18:52.192 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:444
+2023-04-26 14:18:52.192 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 14:18:52.192 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 14:18:52.192 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 14:18:52.193 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 14:37:02.757 LOG_ALARM -----------------  logr4z thread started!  ---------------------------- Logr.cpp:1725
+2023-04-26 14:37:02.759 LOG_ALARM logrger id=0 key=Main name=Main path=./log/ level=0 display=true Logr.cpp:1735
+2023-04-26 14:37:02.807 LOG_INFO  ----------load model!----------- ano_detect_main.cpp:10
+2023-04-26 14:37:02.807 LOG_INFO  <load model>load GroundWater model DeepNet.cpp:91
+2023-04-26 14:37:11.082 LOG_INFO  <load model>load GroundWater model successful! DeepNet.cpp:102
+2023-04-26 14:37:11.082 LOG_INFO  <load model>ALL modl load successful! ano_detect_main.cpp:14
+2023-04-26 14:37:11.082 LOG_INFO  ----------AnoServer start!----------- ano_detect_main.cpp:19
+2023-04-26 14:37:11.082 LOG_INFO  <InitServer> server bind complete! server.cpp:30
+2023-04-26 14:37:11.085 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 14:37:11.086 LOG_INFO  ==============Connect2Client============== server.cpp:48
+2023-04-26 14:37:11.872 LOG_INFO  <AnoServer> Server accept complete! server.cpp:200
+2023-04-26 14:37:11.890 LOG_INFO  <RecvInfo>recvInfo cols=605 server.cpp:86
+2023-04-26 14:37:11.890 LOG_INFO  <RecvInfo>recvInfo rows=397 server.cpp:87
+2023-04-26 14:37:11.891 LOG_INFO  <RecvInfo>recvInfo channels=3 server.cpp:88
+2023-04-26 14:37:11.892 LOG_INFO  <RecvInfo>recvInfo status=ok server.cpp:89
+2023-04-26 14:37:11.893 LOG_INFO  <RecvInfo>recvInfo file_path=demo/test.jpg server.cpp:90
+2023-04-26 14:37:11.893 LOG_INFO  <RecvInfo>recvInfo ano_type=GroundWater server.cpp:91
+2023-04-26 14:37:11.898 LOG_INFO  <AnoServer> recv image successful! server.cpp:224
+2023-04-26 14:37:11.898 LOG_INFO  <Recognition> start Recognition,Ano_type=FBGW server.cpp:237
+2023-04-26 14:37:11.898 LOG_INFO  <Yolov5Detect>recognition type=1 yolov5.cpp:374
+2023-04-26 14:37:33.185 LOG_INFO  <Yolov5Detect>total detect time=21.2867 yolov5.cpp:525
+2023-04-26 14:37:33.186 LOG_ERROR <Yolov5>Detect finished,is empty yolov5.cpp:589
+2023-04-26 14:37:33.187 LOG_INFO  <Recognition> Recognition finished,res=empty server.cpp:241
+2023-04-26 14:37:33.187 LOG_INFO  Send Res Img Success! server.cpp:276
+2023-04-26 14:37:33.188 LOG_INFO  <AnoServer> Server Start Listening ... server.cpp:193
+2023-04-26 14:37:33.189 LOG_INFO  ==============Connect2Client============== server.cpp:48
