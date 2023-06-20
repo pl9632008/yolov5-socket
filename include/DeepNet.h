@@ -8,7 +8,6 @@ class DeepNet
     public:
         bool load_model();
         void loadEngine(std::string str);
-
         
         // static char * trt_model_stream896_;
         // static char * trt_model_stream640_;
