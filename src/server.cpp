@@ -22,6 +22,8 @@ int AnoServer::InitServer()
 	server_addr.sin_addr.s_addr = INADDR_ANY;
 	server_addr.sin_port = htons(DEFAULT_PORT);
 
+		// server_addr.sin_port = htons(30988);
+
     if (bind(server_socket, (struct sockaddr *)&server_addr, sizeof(server_addr))<0) {
 		LOGE("<InitServer> server bind error!");
 		close_sock(server_socket);
@@ -190,6 +192,7 @@ void AnoServer::Analyse(void *engine)
 	}
 	while(true)
 	{
+
 		LOGI("<AnoServer> Server Start Listening ...");
 		int new_server_socket = Connect2Client(server_socket);
 		if(new_server_socket<0)
