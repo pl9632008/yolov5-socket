@@ -14,7 +14,6 @@ using namespace dnn;
 
 
 
-
 struct Output {
 	int id;
 	float confidence;
@@ -27,23 +26,13 @@ public:
 	Yolov5() {}
 	~Yolov5() {}
 	cv::Mat preprocess(cv::Mat& img,cv::Size new_shape,float& r,float& dw, float& dh);
-	bool Detect(cv::Mat &SrcImg, std::vector<Output> &output, int type, std::string &detectres,DeepNet * deepnet_ );
-	void drawPred(Mat &img, cv::Mat &dst, std::vector<Output> result, std::vector<Scalar> color);
-	int Recognize(cv::Mat &src,std::string Ano_type,std::string& res, cv::Mat& dst,void *engine);
+	
 	float * trtProcess(int batch_size, int input_h, int input_w, Mat &img,DeepNet * deepnet_ ,Mat & SrcImg);
 
-	void nms_sorted_bboxes(std::vector<Output>& faceobjects, std::vector<int>& picked, float nms_threshold);
+	bool Detect(cv::Mat &SrcImg, std::vector<Output> &output, int type, std::string &detectres,DeepNet * deepnet_ );
 
-	float intersection_area(Output & a,Output&b);
-
-	void qsort_descent_inplace(std::vector<Output>&faceobjects,int left, int right);
-
-	void qsort_descent_inplace(std::vector<Output>&faceobjects);
-
-	cv::Mat preprocessImg(cv::Mat& img, int input_w, int input_h);
-
-
-	void draw_objects(const cv::Mat& bgr, const std::vector<Output>& objects);
+	void drawPred(Mat &img, cv::Mat &dst, std::vector<Output> result, std::vector<Scalar> color);
+	int Recognize(cv::Mat &src,std::string Ano_type,std::string& res, cv::Mat& dst,void *engine);
 
 	DeepNet * deepnet_ ;
 
@@ -57,7 +46,7 @@ private:
 	std::vector<std::string> className_gw = {"bj_bpmh", "bj_bpzc", "bj_bpps", "bj_wkps", "bjdsyc", "ywzt_yfyc", "hxq_gjtps", \
 										  "hxq_gjbs", "jyz_pl", "sly_bjbmyw", "xmbhyc", "xmbhzc", "yw_nc", "yw_gkxfw", "kgg_ybh", \
 										  "kgg_ybf", "kgg_ybk", "wcaqm", "aqmzc", "wcgz", "gzzc", "xy", "sly_dmyw", "gbps"};
-	//std::vector<std::string> className_jsls = {"jsls"};
+	// std::vector<std::string> className_jsls = {"jsls"};
 
 
 std::vector<std::string> className_jsls = {
@@ -71,8 +60,6 @@ std::vector<std::string> className_jsls = {
             "microwave", "oven", "toaster", "sink", "refrigerator", "book", "clock", "vase", "scissors", "teddy bear",
             "hair drier", "toothbrush"
     };
-
-
 
 
 };
